@@ -1,0 +1,4 @@
+*.war
+*.old
+/install/war-stage
+/stage

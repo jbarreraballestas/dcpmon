@@ -1,9 +1,14 @@
 # Development Requirements
-
 - OpenJDK
-- Apache Ant
+- Ant
+- Tomcat (optional)
 
-# Download servlet-api.jar
+# Environment variables
+- JAVA_HOME
+- ANT_HOME
+- CATALINA_HOME
+
+# Download servlet-api.jar (optional if you use tomcat - CATALINA_HOME environment)
 ```bash
 wget https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar -O servlet-api.jar
 ```

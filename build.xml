@@ -41,7 +41,7 @@ Once there, see the README file in the installed image.
 
 	<path id="dcpmon.class.path">
 		<pathelement path="${build.classes}/"/>
-		<pathelement path="${env.CATALINA_HOME}/lib/servlet-api.jar"/>
+		<pathelement path="servlet-api.jar"/>
 		<fileset dir="${dcpmon.dir}/WebContent/WEB-INF/lib">
 			<include name="**/*.jar"/>
 		</fileset>
@@ -59,7 +59,7 @@ Once there, see the README file in the installed image.
 			<fileset dir="${dcpmon.dir}/install/war-custom"/>
 		</copy>
 		<mkdir dir="stage/dcpmon-build/war-distro/WEB-INF/classes"/>
-		<javac debug="true" destdir="stage/dcpmon-build/war-distro/WEB-INF/classes"
+		<javac includeantruntime="false" debug="true" destdir="stage/dcpmon-build/war-distro/WEB-INF/classes"
 			target="1.8" source="1.8">
 			<src path="${dcpmon.dir}/src"/>
 			<classpath refid="dcpmon.class.path"/>

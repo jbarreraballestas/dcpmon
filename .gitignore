@@ -1,4 +1,6 @@
-*.war
-*.old
-/install/war-stage
 /stage
+servlet-api.jar
+/install/war-stage
+/install/*.zip
+/install/*.old
+/install/*.war

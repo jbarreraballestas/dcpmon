@@ -2,7 +2,6 @@
 
 - OpenJDK
 - Apache Ant
-- Apache Tomcat
 
 # Compile
 

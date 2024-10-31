@@ -41,6 +41,9 @@ Once there, see the README file in the installed image.
 
 	<path id="dcpmon.class.path">
 		<pathelement path="${build.classes}/"/>
+		<!-- 
+		wget https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar -O servlet-api.jar
+		 -->
 		<pathelement path="servlet-api.jar"/>
 		<fileset dir="${dcpmon.dir}/WebContent/WEB-INF/lib">
 			<include name="**/*.jar"/>

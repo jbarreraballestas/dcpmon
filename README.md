@@ -1,4 +1,4 @@
-# Dependencies
+# Development Requirements
 
 - OpenJDK
 - Apache Ant

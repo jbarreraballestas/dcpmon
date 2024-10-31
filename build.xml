@@ -65,6 +65,7 @@ Once there, see the README file in the installed image.
 			<classpath refid="dcpmon.class.path"/>
 		</javac>
 		<copy todir="stage/dcpmon-build" file="${dcpmon.dir}/install/makeDcpmon.sh"/>
+		<copy todir="stage/dcpmon-build" file="${dcpmon.dir}/install/makeDcpmon.bat"/>
 		<copy todir="stage/dcpmon-build" file="${dcpmon.dir}/install/README"/>
 		<tar tarfile="stage/dcpmon-build-${MAJ_VER}-${MIN_VER}.tgz"
 			basedir="stage"

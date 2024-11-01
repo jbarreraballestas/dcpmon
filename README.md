@@ -3,8 +3,9 @@
 docker build -t dcpmonwar .
 docker run -v $(pwd):/dcpmon dcpmonwar
 ```
+<hr/>
 
-# Build Requirements
+# Requirements to Build Manually
 - OpenJDK
 - Ant
 - Tomcat (optional)

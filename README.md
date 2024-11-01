@@ -1,4 +1,10 @@
-# Development Requirements
+# Build with Docker
+```bash
+docker build -t dcpmonwar .
+docker run -v $(pwd):/dcpmon dcpmonwar
+```
+
+# Build Requirements
 - OpenJDK
 - Ant
 - Tomcat (optional)
